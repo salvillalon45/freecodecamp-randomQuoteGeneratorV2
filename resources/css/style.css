@@ -1,0 +1,136 @@
+/* ******************************************* */
+/* Font for Website */
+/* ******************************************* */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+
+
+/* ******************************************* */
+/* Header */
+/* ******************************************* */
+header {
+  background-color: #0D122B;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+/* ******************************************* */
+/* The Box */
+/* ******************************************* */
+.container {
+  background-color: #FFFFFF;
+  border: black solid 1px;
+  width: 500px;
+  height: 500px;
+  margin-top: 200px;
+  border-radius:10px;
+}
+
+.instruction {
+  margin-top: 40px;
+}
+
+.quote {
+  margin-top: 50px;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+  bottom: 1;
+  left: 0;
+  margin-top: 100px;
+}
+
+.buttons button .twitter-button {
+  border-radius:10px;
+}
+
+button {
+  margin-left: 100px;
+}
+
+
+
+
+
+
+
+/* ******************************************* */
+/* Footer */
+/* ******************************************* */
+footer {
+  background-color: #0D122B;
+  height: 100px;
+  margin-top: 100px;
+}
+
+footer .container {
+  display: flex;
+  align-items: right;
+}
+
+footer img {
+  width: auto;
+  margin: 0px;
+  position: absolute;
+  right: 5px;
+  bottom: -1647px;
+  width: 260px;
+  height:100px;
+}
+
+.footer-social-icons {
+  display: block;
+  padding-top: 45px;
+}
+
+.social-icons {
+  color: #fff;
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-github{
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.fa-github:hover {
+    background-color: #3d5b99;
+}
+
+.fa-linkedin {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
